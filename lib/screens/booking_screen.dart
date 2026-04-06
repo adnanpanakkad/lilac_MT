@@ -14,7 +14,7 @@ class BookingScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // ✅ Green Success Card
+              //  Green Success Card
               Container(
                 padding: const EdgeInsets.symmetric(
                   vertical: 30,
@@ -33,7 +33,7 @@ class BookingScreen extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    // ✅ Tick Icon
+                    //  Tick Icon
                     Container(
                       padding: const EdgeInsets.all(15),
                       decoration: const BoxDecoration(
@@ -71,7 +71,7 @@ class BookingScreen extends StatelessWidget {
 
               const SizedBox(height: 40),
 
-              // ✅ Poster-like Info Card
+              // Poster-like Info Card
               Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
@@ -99,7 +99,7 @@ class BookingScreen extends StatelessWidget {
 
               const SizedBox(height: 40),
 
-              // ✅ Button
+              //  Button
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
